@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+    <name>Positively's AdMech Armoury patch</name>
+    <packageId>rimworld.positively.admecharmoury.patch</packageId>
+    <author>PositivelyAcademical</author>
+    <url>https://github.com/PositivelyAcademical/RW_Positively_AMA_Patch</url>
+    <supportedVersions>
+        <li>1.5</li>
+    </supportedVersions>
+    <modDependencies>
+        <li>
+            <packageId>Ogliss.AdMech.Armoury</packageId>
+            <displayName>Adeptus Mechanicus: Armoury</displayName>
+            <steamWorkshopUrl>steam://url/CommunityFilePage/1541438614</steamWorkshopUrl>
+        </li>
+    </modDependencies>
+    <loadAfter>
+        <li>Ogliss.AdMech.Armoury</li>
+        <li>Archaon.Primarch</li>
+    </loadAfter>
+    <loadBefore>
+    </loadBefore>
+    <incompatibleWith>
+    </incompatibleWith>
+    <description>A quick patch to fix certain stats in Adeptus Mechanicus: Armoury.
+
+An as yet unconfirmed mod is conflicting with Adeptus Mechanicus: Armoury, causing certain stats to be changed. Stats this mod resets include:
+    + list stats here
+
+</description>
+</ModMetaData>
